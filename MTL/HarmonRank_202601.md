@@ -69,7 +69,7 @@ $$
 
 $$
 \begin{equation}
-    r^*=\argmax_{\sigma\in\Sigma}\langle s,r_{\sigma}\rangle
+    r^*=\arg\max_{\sigma\in\Sigma}\langle s,r_{\sigma}\rangle
 \end{equation}
 $$
 
@@ -87,8 +87,8 @@ $$
 \begin{equation}
     \begin{aligned}
         P(s,r)
-        &=\argmax_{t\in\mathcal{P}(r)}\langle s,t\rangle-\frac{1}{2}\|t\|^2\\
-        &=\argmin_{t\in\mathcal{P}(r)}\|t-s\|^2
+        &=\arg\max_{t\in\mathcal{P}(r)}\langle s,t\rangle-\frac{1}{2}\|t\|^2\\
+        &=\arg\min_{t\in\mathcal{P}(r)}\|t-s\|^2
     \end{aligned}
 \end{equation}
 $$
